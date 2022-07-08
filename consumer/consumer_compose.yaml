@@ -1,0 +1,10 @@
+version: '3.8'
+  
+  services:
+  
+    Consumer:
+      container_name: Consumer
+      hostname: Consumer
+      image: "Consumer_impage"
+      env_file:
+        - ./.env

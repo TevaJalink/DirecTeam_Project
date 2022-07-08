@@ -1,0 +1,8 @@
+FROM python:3.10.5
+
+COPY requirements.txt ./requirements.txt
+COPY Rest_API.py ./Rest_API.py
+
+RUN pip install -r requirements.txt
+
+CMD ["python","./Rest_API.py"]

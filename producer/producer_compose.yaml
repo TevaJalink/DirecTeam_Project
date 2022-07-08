@@ -1,0 +1,10 @@
+version: '3.8'
+  
+  services:
+  
+    Producer:
+      container_name: Producer
+      hostname: Producer
+      image: "Producer_impage"
+      env_file:
+        - ./.env
