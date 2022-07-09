@@ -11,7 +11,7 @@
             ],
             "Resource": [
                 "<input-your-sqs-ARN>",
-                "<input-your-s3-ARN>"
+                "<input-your-s3-ARN>/*"
             ]
         }
     ]
