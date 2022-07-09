@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+    producer:
+        build: ./producer
+        ports:
+            - 5000:5000
+        env_file:
+            - ./producer/.env
+    consumer:
+        build: ./consumer
+        env_file:
+            - ./consumer/.env

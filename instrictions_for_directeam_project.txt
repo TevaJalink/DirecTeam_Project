@@ -1,0 +1,11 @@
+#this is a step by step guide to create the producer-sqs-consumer-s3 pipeline
+
+1) login to your aws console
+2) navigate to sqs and create your sqs queue
+3) navigate to s3 and create an s3 bucket
+4) navigate to IAM and create 2 policies with the iam policies json files in the consumer and producer folders, add the ARN of the s3 and sqs to the policies
+5) create 2 users, one for the producer and one for the consumer and save thier access id files
+6) open the .env file in producer and add the enviroment variables
+7) open the .env file in consumer and add the enviroment variables
+8) navigate to the main directory where we have the docker compose file and run docker-compose up for the containers to start
+9) Test the application using postman and the json file we want to transfer to the s3 bucket
