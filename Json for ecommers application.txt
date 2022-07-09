@@ -1,0 +1,10 @@
+{
+	"user": "devops@directeam.io",
+	"product":{
+		"name": "phone",
+		"version": "X"
+	},
+	"type": 1,
+	"pageView": 52650258,
+	"timestamp": 1529482724663
+}

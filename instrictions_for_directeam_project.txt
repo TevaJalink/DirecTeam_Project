@@ -8,4 +8,4 @@
 6) open the .env file in producer and add the enviroment variables
 7) open the .env file in consumer and add the enviroment variables
 8) navigate to the main directory where we have the docker compose file and run docker-compose up for the containers to start
-9) Test the application using postman and the json file we want to transfer to the s3 bucket
+9) Test the application using postman and the json file we want to transfer to the s3 bucket in the url http://127.0.0.1:5000/api
